@@ -1,0 +1,19 @@
+.text{
+    color: #5a1b24;
+}
+.fleshe{
+    font-size: large;
+}
+body{
+    margin: 15px;
+}
+#nav{
+   background-color: white;
+   box-shadow: 0 10px 17px 0 #c3c3c3;
+}
+#navbas{
+    height: 70px ;
+    background-color: blue;
+    align-items: center;   /*centrer le texte de haut en bas*/
+    justify-content: space-between;
+}
