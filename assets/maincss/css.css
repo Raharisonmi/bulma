@@ -12,8 +12,19 @@ body{
    box-shadow: 0 10px 17px 0 #c3c3c3;
 }
 #navbas{
-    height: 70px ;
-    background-color: blue;
-    align-items: center;   /*centrer le texte de haut en bas*/
     justify-content: space-between;
+    height: 70px ;
+    align-items: center;   /*centrer le texte de haut en bas*/
+}
+#navbas div a{
+    padding-right: 15px;
+    text-decoration: none;
+    color: #5a1b24;
+}
+#droite{
+    padding-right: 1px ;
+}
+#icon{
+    height: 50px;
+
 }
