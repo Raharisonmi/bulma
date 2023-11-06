@@ -28,3 +28,56 @@ body{
     height: 50px;
 
 }
+
+
+#menubas{
+    display: none;
+    background-color: white;
+    box-shadow: 0px -1px 8px -5px rgba(0, 0, 0, 0.75), 0px 1px 8px -5px rgba(0, 0, 0, 0.75);
+}
+
+#menubas a{
+    display: block;
+    text-decoration: none;
+    color: #5a1b24;
+    text-align: center;
+}
+
+#menubas a:hover{
+transition: 2s;
+color: white;
+border-color: #5a1b24;
+
+}
+
+#icon2 {
+display: none;
+}
+.contenair{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+@media (max-widht: 1118px){
+ 
+}
+@media (max-width: 940px){
+  
+}
+
+@media (max-width: 860PX){
+   #droite{
+    display: none;
+   }
+   #icon2{
+    display: block;
+    
+   }
+}
