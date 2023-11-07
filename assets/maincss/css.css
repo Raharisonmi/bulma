@@ -43,10 +43,14 @@ body{
     text-align: center;
 }
 
+#droite a:hover{
+    transition: 0.3s;
+    box-shadow: 0px 1px 14px -5px rgba(0, 0, 0, 0.75);
+}
+
 #menubas a:hover{
-transition: 2s;
-color: white;
-border-color: #5a1b24;
+transition: 0.3s;
+box-shadow: 0px 1px 14px -5px rgba(0, 0, 0, 0.75);
 
 }
 
@@ -57,19 +61,84 @@ display: none;
     display: flex;
 }
 
+#imagefond{
+    background-image: url("../images/other-devushka-kofe-chashka-ruki-noutbuk-61188.jpeg");
+   height: 900px;
+   width: 105,6%;
+   background-size: cover;
+   margin-top: 1px;
+   align-items: center;
+}
+#motflot{
+    display: block;
+    
+}
+/*icon du haut*/
+.ico{
+    align-items: center;
+}
+.soratraico{
+    text-shadow: #c3c3c3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 
 
 
+/*
+commencement du corp du page
+*/
+#contenuimage{
+    align-items: center;
+}
+#contenuimage h1, #contenuimage h5{
+    color: white;
+}
+#bt1,#bt2{
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px 20px 20px 20px;
+   
+    text-transform: uppercase;
+}
+#bt1{
+    margin-right: 100px;
+    height: 60px;
+    width: 120px;
+}
+#bt2{
+    height: 60px;
+    width: 200px;
+}
+
+#bt1:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    transition: 0.8s;
+    border-radius: 3px 20px 30px 20px;
+}
+
+#bt2:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    transition: 0.8s;
+    border-radius: 3px 20px 30px 20px;
+}
 
 
 
 
 @media (max-widht: 1118px){
- 
+    #menubas{
+        display: none;
+       }
 }
 @media (max-width: 940px){
-  
+    #menubas{
+        display: none;
+       }
 }
 
 @media (max-width: 860PX){
