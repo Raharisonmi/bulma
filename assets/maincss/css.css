@@ -158,7 +158,27 @@ commencement du corp du page
     border-radius: 5px 5px 5px 5px;
 }
 
+/*video div*/
+#divvideo{
+    padding-left: 100px;
+    padding-top: 20px;
+    background-color: #f8f9fb;
+}
+#soratravideo{
+    align-items: center;
+}
 
+
+#rose{
+    background-color: #3f264d;
+    height: 290px;
+ 
+}
+
+#rose{
+    align-items: center;
+    text-align: center;
+}
 
 
 
@@ -183,5 +203,12 @@ commencement du corp du page
    }
    #textico{
     margin-left: 14px;
+}
+
+
+#divvideo{
+    padding-left: 4px;
+    padding-top: 10px;
+    background-color: #f8f9fb;
 }
 }
