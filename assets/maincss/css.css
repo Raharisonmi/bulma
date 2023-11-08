@@ -132,6 +132,7 @@ commencement du corp du page
 #centertitle{
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 80px;
 }
 #centertitle h1{
     color: #5a1b24;
@@ -172,7 +173,7 @@ commencement du corp du page
 #rose{
     background-color: #3f264d;
     height: 290px;
- 
+    margin-top: 50px;
 }
 
 #rose{
@@ -180,6 +181,25 @@ commencement du corp du page
     text-align: center;
 }
 
+
+/* quatre image */
+#quatreimage{
+    background-image: url("../images/Blog-Sacheen.jpg");
+    height: 400px;
+    background-size: cover;
+    align-items: center;
+}
+#divgrey{
+  
+}
+
+/*footer*/
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
 
 
 @media (max-widht: 1118px){
@@ -211,4 +231,24 @@ commencement du corp du page
     padding-top: 10px;
     background-color: #f8f9fb;
 }
+#quatreimage{
+    height: 700px;
+
+}
+#imagequatre{
+    width: 100%;
+}
+
+
+#imagefond{
+
+   height: 600px;}
+
+   #centertitle{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
 }
